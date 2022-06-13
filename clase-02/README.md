@@ -33,3 +33,10 @@ Push es subir, empujar al remoto,
     UNMODIFIED => Archivos que se encuentran en el repositroio y que no fueron modificados
 
     MODIFIED => Archivso que se encuentran en el repositirio pero difieren con los que se encuentran actualemnete en el directorio de trabajo (Working Directory)
+
+## Git amend
+Agregar algo que me olvide en el ultimo commit
+Tmb se puede modificar el comentario
+    git add . o <archivo>
+    git commit --amend
+
