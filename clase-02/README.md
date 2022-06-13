@@ -25,4 +25,11 @@ Push es subir, empujar al remoto,
     git remote
     git remote -v
 
-## 
+## Status de los Archivos
+    UNTRACED => Archivos que no se agregaron al index (Staging Area) y por conseucnia no se les hara seguimientos
+
+    STAGED => Archivos que fueron agregados al area temporal o Staging Area
+
+    UNMODIFIED => Archivos que se encuentran en el repositroio y que no fueron modificados
+
+    MODIFIED => Archivso que se encuentran en el repositirio pero difieren con los que se encuentran actualemnete en el directorio de trabajo (Working Directory)
