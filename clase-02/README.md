@@ -40,3 +40,5 @@ Tmb se puede modificar el comentario
     git add . o <archivo>
     git commit --amend
 
+![status_archivos](img/ruta){width='200px'}
+
