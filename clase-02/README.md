@@ -42,3 +42,34 @@ Tmb se puede modificar el comentario
 
 ![status_archivos](img/ruta){width='200px'}
 
+## Ramas
+Bifurcaciones de codigo, una rama paralela, una historia diferente ede mi codigo
+Existe la rama principal donde venimos escrbiiendo codigo y tenemos la posibilidad de crear otra (nueva funcionalidad, nuevos archivos, etc)
+Al trabajar no se debe trabajr sobre la rama principal, hay una norma con las ramas para trabajar
+
+3 ramas estaria bien, una rama para cada uno y despues una mas para unirlas.
+
+# TRABAJAR CON RAMAS
+
+## Crear una rama
+    git branch <nombre de la rama>
+
+## Mirar las ramas que tnego en el Repo
+    git branch
+
+## Moverse entre las ramas
+    git switch <nombre de la rama existente>
+
+## ¿Como sé en qué rama estoy?
+En las consolas tipo linux/unix, voy a tenerlo al costado del path(ruta): (dev, master, ..)
+
+Otra forma es con git:
+    git status
+    git branch
+
+## Volver y recuperar el codigo
+    git restore 
+    Borrar todo lo que acabo de agregar 
+
+## Volverlo al escenario
+git restore --staged
