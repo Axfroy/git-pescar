@@ -73,3 +73,19 @@ Otra forma es con git:
 
 ## Volverlo al escenario
 git restore --staged
+
+## listar ramas remotas
+    git branch -r
+
+## Eliminar ramas  
+Backtick = ALT + 96
+
+```sh
+    git branch -d # Borrar la rama si en algun momento fue fusionada (Merge)
+```
+```sh
+    git brand -D # Borro la rama en el caso de que no me deje porque no fue fusionada o mergeada
+``` 
+
+## Cualquier cosa
+asdasd
